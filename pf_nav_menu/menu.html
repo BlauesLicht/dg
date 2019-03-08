@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pf_nav</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="menu.js"></script>
+  </head>
+  <body>
+
+  <div class="pf_header">
+    <div class="pf_nav_logo_container">
+      <img src="./img/pf_logo.png" />
+    </div>
+
+    <div class="pf_nav_icon_container">
+
+      <div class="pf_nav_menu_icons">
+        <img src="./img/shopping_cart.svg" />
+        <span class="headphones_icon"><i class="fas fa-headphones-alt"></i></span>
+      </div>
+    </div>
+
+    <div class="pf_search_container">
+      <label for="open_search"></label>
+      <input type="checkbox" id="open_search" />
+      <span class="search_icon"><i class="fas fa-search"></i></span>
+
+      <label for="open_search" id="close_search"></label>
+      <span class="close_icon"><i class="fas fa-times"></i></span>
+
+      <div class="search_container">
+        <input type="search" autofocus/>
+        <input type="submit" value="" />
+        <i class="fas fa-search white"></i>
+      </div>
+
+    </div>
+  </div>
+
+    <div class="pf_main_nav">
+
+      <label for="hamburger"></label>
+      <input type="checkbox" id="hamburger" />
+      <div class="pf_nav_menu_button">
+            <div>
+            </div>
+      </div>
+
+      <label for="hamburger" id="overlay"></label>
+      <label for="open_search" id="overlay_search"></label>
+      <div class="overlay" id="body_overlay">
+
+      </div>
+
+      <nav class="off_canvas_menu">
+        <div class="pf_nav_main_container" id="pf_nav">
+          <ul>
+            <li>
+              <input type="checkbox" id="item_01" checked>
+
+              <label class="main_item" for="item_01">Produkte</label>
+                <ul>
+                  <li>
+                    <input type="checkbox" id="subitem_01_01" checked>
+                    <label class="sub_item" for="subitem_01_01">Industrielle Sensoren</label>
+                    <ul class="pf_nav_subsubmenu_items">
+                          <li><a href="#" class="">Näherungsschalter</a></li>
+                          <li><a href="#" class="">Optoelektrische Sensoren</a></li>
+                          <li><a href="#" class="">Bildverarbeitung</a></li>
+                          <li><a href="#" class="">Ultrschallsensoren</a></li>
+                          <li><a href="#" class="">Drehgeber</a></li>
+                          <li><a href="#" class="">Positionierungssysteme</a></li>
+                          <li><a href="#" class="">Neigungs- und Beschleunigungssensoren</a></li>
+                          <li><a href="#" class="">Industrielle Kommunikation</a></li>
+                          <li><a href="#" class="">Identifikationssysteme</a></li>
+                          <li><a href="#" class="">Anzeigen und Signalverarbeitung</a></li>
+                          <li><a href="#" class="">Connectivity</a></li>
+                          <li><a href="#" class="">Zubehör</a></li>
+                          <li><a href="#" class="">Software</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="subitem_01_02" checked>
+                    <label class="sub_item" for="subitem_01_02">Explosionsschutz</label>
+                    <ul class="pf_nav_subsubmenu_items">
+                          <li><a href="#" class="">Eigensichere Barrieren</a></li>
+                          <li><a href="#" class="">Signaltrenner</a></li>
+                          <li><a href="#" class="">FieldConnex Feldbusinfrastruktur</a></li>
+                          <li><a href="#" class="">Remote-I/O-Systeme</a></li>
+                          <li><a href="#" class="">HART Interface Solutions</a></li>
+                          <li><a href="#" class="">Überspannungsschutz</a></li>
+                          <li><a href="#" class="">Wireless Solutions</a></li>
+                          <li><a href="#" class="">Eigensichere Mobilgeräte</a></li>
+                          <li><a href="#" class="">Bedien- und Beobachtungssysteme</a></li>
+                          <li><a href="#" class="">Elektrische Komponenten und Systeme für den Explosionsschutz</a></li>
+                          <li><a href="#" class="">Überdruckkapselungssysteme</a></li>
+                          <li><a href="#" class="">Stromversorgungen</a></li>
+                          <li><a href="#" class="">Füllstandsmesstechnik</a></li>
+                          <li><a href="#" class="">Software</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="item_02" checked>
+              <label class="main_item" for="item_02">Branchen</label>
+                <ul>
+                  <li>
+                    <input type="checkbox" id="subitem_02_01" checked>
+                    <label class="sub_item" for="subitem_02_01">Industrielle Sensoren</label>
+                    <ul>
+                      <ul class="pf_nav_subsubmenu_items">
+                          <li><a href="#" class="">Applikationsauswahl</a></li>
+                          <li><a href="#" class="">Maschinen- und Anlagenbau</a></li>
+                          <li><a href="#" class="">Automobilindustrie</a></li>
+                          <li><a href="#" class="">Mobile Equipment</a></li>
+                          <li><a href="#" class="">Erneuerbare Energien</a></li>
+                          <li><a href="#" class="">Lager- und Fördertechnik</a></li>
+                          <li><a href="#" class="">Druck- und Papierindustrie</a></li>
+                          <li><a href="#" class="">Verpackungstechnik</a></li>
+                          <li><a href="#" class="">Process Equipment</a></li>
+                          <li><a href="#" class="">Tür-,Tor- und Aufzugsbau</a></li>
+                        </ul>
+                    </ul>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="subitem_02_02" checked>
+                    <label class="sub_item" for="subitem_02_02">Explosionsschutz</label>
+                    <ul class="pf_nav_subsubmenu_items">
+                          <li><a href="#" class="">Übersicht Applikationen und Referenzen</a></li>
+                          <li><a href="#" class="">Offshore+Schiffbau</a></li>
+                          <li><a href="#" class="">Öl+Gas</a></li>
+                          <li><a href="#" class="">Chemie</a></li>
+                          <li><a href="#" class="">Pharmazie</a></li>
+                          <li><a href="#" class="">Energieerzeugung</a></li>
+                          <li><a href="#" class="">Wasser+Abwasser</a></li>
+                        </ul>
+                  </li>
+                </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="item_03" checked>
+              <label class="main_item" for="item_03">Service+Support</label>
+                <ul>
+                  <li>
+                    <input type="checkbox" id="subitem_03_01" checked>
+                    <label class="sub_item" for="subitem_03_01">Kundenservices</label>
+                    <ul class="pf_nav_subsubmenu_items">
+                          <li><a href="#" class="">Mein Pepperl+Fuchs Profil</a></li>
+                          <li><a href="#" class="">Mitteilungen und Informationen zur Cyber-Security</a></li>
+                          <li><a href="#" class="">Prüfen Sie den Status Ihrer Bestellung</a></li>
+                          <li><a href="#" class="">Pepperl+Fuchs Online-Konto erstellen</a></li>
+                          <li><a href="#" class="">Schulungen+Seminare</a></li>
+                          <li><a href="#" class="">Engineering Data</a></li>
+                          <li><a href="#" class="">Schulungen+Seminare in Deutschland</a></li>
+                          <li><a href="#" class="">Vergleichsprodukt anfragen</a></li>
+                          <li><a href="#" class="">Download technische Dokumente</a></li>
+                          <li><a href="#" class="">Niederlassungen+Distributoren</a></li>
+                        </ul>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="subitem_03_02" checked>
+                    <label class="sub_item" for="subitem_03_02">Industrielle Sensoren</label>
+                    <ul class="pf_nav_subsubmenu_items">
+                          <li><a href="#" class="">Fragen Sie unsere Experten</a></li>
+                          <li><a href="#" class="">Vertriebsregionen</a></li>
+                          <li><a href="#" class="">Broschüren+Kataloge für die Fabrikautomation</a></li>
+                          <li><a href="#" class="">Pressetexte</a></li>
+                          <li><a href="#" class="">Technologien</a></li>
+                        </ul>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="subitem_03_03" checked>
+                    <label class="sub_item" for="subitem_03_03">Explosionsschutz</label>
+                    <ul class="pf_nav_subsubmenu_items">
+                          <li><a href="#" class="">Fragen Sie unsere Experten</a></li>
+                          <li><a href="#" class="">Projektmanagement</a></li>
+                          <li><a href="#" class="">Lösungen für Prozessleitsysteme</a></li>
+                          <li><a href="#" class="">Broschüren+Kataloge für den Explosionsschutz</a></li>
+                          <li><a href="#" class="">Serviceverträge für ecom instruments</a></li>
+                          <li><a href="#" class="">Pressetexte</a></li>
+                          <li><a href="#" class="">Technologien</a></li>
+                        </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><label class="main_item"><a href="#" >Kontakt</a></label></li>
+              <li><label class="main_item"><a href="#" >Karriere</a></label></li>
+            </ul>
+          </div>
+
+        <div class="pf_nav_meta_container">
+          <ul>
+           <li><label class="main_item" id="amplify" ><a href="#" >The Pepperl+Fuchs Magazine</a></label></li>
+           <li><label class="main_item"><a href="#" >Unternehmen</a></label></li>
+           <li><label class="main_item"><a href="#" >News+Events</a></label></li>
+           <li><label class="main_item"><a href="#" >Blog</a></label></li>
+           <li>
+              <input type="checkbox" id="meta_01" checked>
+              <label class="main_item" for="meta_01">Online-Portal</label>
+              <ul>
+                <li><a href="#">Inhalt Online-Portal</a></li>
+              </ul>
+           </li>
+           <li><label class="main_item"><a href="#" >Land wechseln</a></label></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="pf_content">
+      <img class="body_content" src="./img/slider.png" />
+      <div class="content_square">
+        <h1>Seien Sie dabei!</h1>
+        <p>
+          Mit der Pepperl+Fuchs e-news erhalten Sie einen bunten Mix aus allen möglichen
+          Bereichen der Automatisierungswelt. Entdecken Sie interessante Anwendungsberichte
+          und sehen Sie packende Beiträge und Interviews in Kurzfilmen für Sie zusammengefasst.
+          Profitieren Sie zudem von Gratis-Downloads und vielem mehr&nbsp;…
+          <strong><u>jetzt abonnieren</u></strong>
+        </p>
+      </div>
+      <p style="padding: 20px;">
+        Mesmerizing birds lie in the sink all day<br />
+        Hide at bottom of staircase to trip human touch my tail, i shred your hand purrrr flee in terror at cucumber discovered on floor, cat slap dog in face, why must they do that shake treat bag. Toilet paper attack claws fluff everywhere meow miao french ciao litterbox meow and walk away stare at guinea pigs, suddenly go on wild-eyed crazy rampage and hiiiiiiiiii feed me now and lay on arms while you're using the keyboard, and gnaw the corn cob. Litter kitter kitty litty little kitten big roar roar feed me kick up litter. Stare at the wall, play with food and get confused by dust do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in luxury cat life or scratch the box i like frogs and 0 gravity, scratch the furniture. Lounge in doorway catch mouse and gave it as a present. Stuff and things make meme, make cute face sit by the fire meeeeouw. Throwup on your pillow leave hair on owner's clothes and cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers for i can haz headbutt owner's knee, or i like big cats and i can not lie allways wanting food. Meow for food, then when human fills food dish, take a few bites of food and continue meowing meow go back to sleep owner brings food and water tries to pet on head, so scratch get sprayed by water because bad cat. Meow meow, i tell my human spend six hours per day washing, but still have a crusty butthole. Lick human with sandpaper tongue adventure always for throwup on your pillow, drool or i love cuddles. Bite nose of your human stares at human while pushing stuff off a table, flop over knock over christmas tree but i show my fluffy belly but it's a trap! if you pet it i will tear up your hand and this cat happen now, it was too purr-fect!!!. Peer out window, chatter at birds, lure them to mouth human is washing you why halp oh the horror flee scratch hiss bite weigh eight pounds but take up a full-size bed. Chase ball of string tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad . Human give me attention meow get video posted to internet for chasing red dot chase laser chew iPad power cord lies down yet eats owners hair then claws head. Purr for no reason. Meow go back to sleep owner brings food and water tries to pet on head, so scratch get sprayed by water because bad cat stare out the window, or floof tum, tickle bum, jellybean footies curly toes so eat a plant, kill a hand leave hair on owner's clothes curl up and sleep on the freshly laundered towels. Toilet paper attack claws fluff everywhere meow miao french ciao litterbox try to jump onto window and fall while scratching at wall give me attention or face the wrath of my claws yet i like big cats and i can not lie but scratch the furniture or grab pompom in mouth and put in water dish. Meow to be let in the dog smells bad refuse to drink water except out of someone's glass yet i vomit in the bed in the middle of the night or brown cats with pink ears, cats are cute, suddenly go on wild-eyed crazy rampage.
+      </p>
+    </div>
+
+  </body>
+</html>
